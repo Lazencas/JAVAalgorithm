@@ -22,17 +22,13 @@ public class Main {
         }
 
         if(x%y==0){
-
+           answer = true;
         }else {
-
+            answer = false;
         }
-
         //나누어 떨어지면 true를 반환 아니면 false를 반환한다 ;
-
         return answer;
     }
-
-
     public static void main(String[] args) {
           Main main = new Main();
         System.out.println(main.solution(10));
